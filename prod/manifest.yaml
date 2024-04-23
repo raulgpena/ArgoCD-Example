@@ -15,7 +15,7 @@ spec:
             - /bin/bash
             - -c
             - |
-              echo "This is pre-sync"
+              git clone git@github.com:raulgpena/sandbox.git
       restartPolicy: Never
 ---
 apiVersion: apps/v1
