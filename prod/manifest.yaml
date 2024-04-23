@@ -10,7 +10,7 @@ spec:
     spec:
       containers:
         - name: presync-job
-          image: ubuntu     
+          image: bitnami/git:latest
           command: 
             - /bin/bash
             - -c
